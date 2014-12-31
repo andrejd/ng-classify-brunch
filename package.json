@@ -1,0 +1,34 @@
+{
+  "name": "ng-classify-brunch",
+  "version": "0.0.1",
+  "description": "Brunch.io plugin wrapper for ng-classify",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrejD/ng-classify-brunch.git"
+  },
+  "keywords": [
+    "Brunch",
+    "AngularJS",
+    "plugin",
+    "wrapper"
+  ],
+  "author": "Andrej Debeljak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrejD/ng-classify-brunch/issues"
+  },
+  "homepage": "https://github.com/AndrejD/ng-classify-brunch",
+  "devDependencies": {
+      "gulp": "^3.8.10",
+      "gulp-coffee": "^2.2.0",
+      "gulp-watch": "^2.0.0",
+      "gulp-load-plugins": "^0.7.1"
+  },
+  "dependencies": {
+      "ng-classify": "^4.0.0"
+  }
+}
