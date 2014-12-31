@@ -4,7 +4,7 @@
   "description": "Brunch.io plugin wrapper for ng-classify",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "coffee --bare --output lib/ src/"
   },
   "repository": {
     "type": "git",
