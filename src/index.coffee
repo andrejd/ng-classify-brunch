@@ -47,7 +47,11 @@ class NgClassifyBrunch
 
     if not isFunction and @options.foldersToModules
       modulesRoot = pathLib.normalize "./#{@options.modulesRoot}/"
-      module = pathLib.relative(modulesRoot, path).split(pathLib.sep).filter (x)-> !/\.(coffee(\.md)?|litcoffee)$/.test x
+
+      module = pathLib.relative(modulesRoot, path)
+                      .split(pathLib.sep)
+                      .filter (x)-> !/\.(coffee(\.md)?|litcoffee)$/.test x
+
       moduleName = module.join '.'
       @options.appName = moduleName || @origAppName
       #console.log "#{path} -> #{@options.appName}"
