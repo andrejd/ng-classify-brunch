@@ -3,7 +3,10 @@ Adds support for [ng-classify](https://github.com/CaryLandholt/ng-classify) to
 [brunch.io](http://brunch.io)
 
 ### Installation
-Install plugin manually by adding text below to your package file inside your `brunch` application:
+
+Install the plugin via npm with npm install --save ng-classify-brunch.
+
+Or, do manual install by adding text below to your package file inside your `brunch` application:
 
 `"ng-classify-brunch": "git+https://github.com/AndrejD/ng-classify-brunch.git",`
 
