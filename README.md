@@ -4,7 +4,7 @@ Adds support for [ng-classify](https://github.com/CaryLandholt/ng-classify) to
 
 ### Installation
 
-Install the plugin via npm with npm install --save ng-classify-brunch.
+Install the plugin via npm with `npm install --save ng-classify-brunch`.
 
 Or, do manual install by adding text below to your package file inside your `brunch` application:
 
