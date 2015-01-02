@@ -1,4 +1,6 @@
-### 0.0.1 (2015-01-02)
+### 1.0.1 (2015-01-02)
+
+!!! CHANGELOG isn't what it's supposed to be ... I need to figure out how conventional-changelog opm pachage works!!!!
 
 
 #### Features
